@@ -76,6 +76,25 @@ This is one way to run your app — you can also run it directly from within And
 - Download the app and check once, it is free😉
 - https://drive.google.com/file/d/1c2vHuFw61XDBAa-Hip9MxoZxp0bSKtVN/view?usp=sharing
   
+## Folder Structure 
+app/
+│── components/            # Reusable UI components
+│   ├── TimerCard.tsx      # Timer card component
+│   ├── ProgressBar.tsx    # Progress bar for timers
+│
+│── navigation/            # App navigation setup
+│   ├── AppNavigator.tsx   # Bottom tabs and stack navigation
+│
+│── screens/               # App screens
+│   ├── HomeScreen.tsx     # Main screen with timer categories
+│   ├── AddTimerScreen.tsx # Screen for adding new timers
+│   ├── HistoryScreen.tsx  # Screen to view and export timer history
+│
+│── App.tsx                # Entry point of the app
+│── package.json           # Dependencies and scripts
+│── README.md              # Project documentation
+
+
 # Troubleshooting
 IF you face issue with react native screen for this version app 0.74, see the --> https://github.com/software-mansion/react-native-screens/issues/2114
 
