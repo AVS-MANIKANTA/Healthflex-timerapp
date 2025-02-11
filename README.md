@@ -1,24 +1,32 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+ A React Native app that allows users to create, manage, and interact with multiple customizable timers. The app will include features like categories, progress
+ visualization, and grouped actions while maintaining clean UI/UX and minimal third-party dependencies.
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Setup Instructions
 
-## Step 1: Start the Metro Server
+## Step 1: Clone the repository
+gh repo clone AVS-MANIKANTA/Healthflex-timerapp
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
+## Step 2: Install Dependencies
 
 ```bash
 # using npm
-npm start
+npm install
 
 # OR using Yarn
-yarn start
+yarn install
 ```
 
-## Step 2: Start your Application
+## Step 3: Start your Application
+
+### For Android
+
+npx react-native run-android
+
+### For IOS
+
+npx react-native run-ios
 
 Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
@@ -46,27 +54,32 @@ If everything is set up _correctly_, you should see your new app running in your
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-## Step 3: Modifying your App
 
-Now that you have successfully run the app, let's modify it.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+### 🔥🔥Core Feature Timer app
 
-## Congratulations! :tada:
+- Add Timer and adding multiple categories
+- Timer List with Grouping
+- Timer Management with all control
+- Progress Visualization
+- Bulk actions
+- User Feedback
 
-You've successfully run and modified your React Native App. :partying_face:
+### Enhanced Functionality
+- Timer History
+- Export Timer History Data as JSON file
+- Category Filtering
+- Removing TImer History
 
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
+## Release APK of Timer app
+- Download the app and check once, it is free😉
+- https://drive.google.com/file/d/1c2vHuFw61XDBAa-Hip9MxoZxp0bSKtVN/view?usp=sharing
+  
 # Troubleshooting
+IF you face issue with react native screen for this version app 0.74, see the --> https://github.com/software-mansion/react-native-screens/issues/2114
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+
 
 # Learn More
 
